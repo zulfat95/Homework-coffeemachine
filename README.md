@@ -1,1 +1,2 @@
-#HomeWork-CoffeeMachine
+#[HomeworkCoffeeMachine](https://zulfat95.github.io/Homework-wallpaper/)
+[![Build Status](https://travis-ci.org/zulfat95/Homework-coffeemachine.svg?branch=master)](https://travis-ci.org/zulfat95/Homework-coffeemachine)
