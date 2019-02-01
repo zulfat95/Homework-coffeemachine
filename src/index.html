@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>CoffeeMachine</title>
+</head>
+<body>
+<div class="ml-3">
+    <h1>CoffeeMachine</h1>
+    <select class="mb-3" name="Coffee" id="coffee">
+        <option value="No chosen" disabled selected>Выберите напиток</option>
+        <option value="0">Кофе три в одном</option>
+        <option value="1">Черное кофе</option>
+        <option value="2">Крем кофе</option>
+        <option value="3">Латте</option>
+    </select>
+    <p><label class="mr-3" for="input">Вставьте деньги(не более 100р): </label><input id="input"></p>
+    <p><button class="btn btn-success" id="calculate">Рассчитать</button></p>
+    <p>Сдача: <span id="result"></span></p>
+</div>
+<script src="js/lib.js" type="module"></script>
+<script src="js/app.js" type="module"></script>
+</body>
+</html>
